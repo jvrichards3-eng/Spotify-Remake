@@ -1,0 +1,56 @@
+body{
+    background: #000000;
+    margin: 0;
+    font: 800;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 24% 1fr;
+    grid-template-areas: 
+      "header header"
+      "aside main"
+      "footer footer";
+}
+
+.site-header {
+     grid-area: header;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     background-color: red;
+}
+
+.side-bar{
+    grid-area: aside;
+    background-color: #121212;
+    background-color: red;
+}
+
+.icons{
+    background-color: #1f1f1f;
+}
+
+.main{
+    grid-area: main;
+    background-color: red;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.header-center{
+    display: flex;
+}
+.header-nav{
+    display: flex;
+}
+.search-bar{
+    display: flex;
+}
+.nav-links{
+    display: flex;
+}
+.header-actions{
+    display: flex;
+}
